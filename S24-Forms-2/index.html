@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input Types</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="headingH">Registration Form</h1>
+    <hr />
+    <div class="mainD">
+      <form>
+        <legend>Please Enter Your Details Correctly:</legend>
+        <div>
+          <label for="firstname">First Name:</label>
+          <input
+            id="firstname"
+            type="text"
+            placeholder="Enter Your First Name"
+          />
+        </div>
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input
+            id="lastname"
+            type="text"
+            placeholder="Enter Your  Second Name "
+          />
+        </div>
+        <div>
+          <label for="date">Date of Birth:</label>
+          <input id="date" type="Date" />
+        </div>
+        <div>
+          <label for="datetime">Date Time-Local:</label>
+          <input id="datetime" type="datetime-local" />
+        </div>
+        <div>
+          <label for="month">Month:</label>
+          <input id="month" type="month" />
+        </div>
+        <div>
+          <label for="week">Week:</label>
+          <input id="week" type="week" />
+        </div>
+        <div>
+          <label for="time">Time:</label>
+          <input id="time" type="time" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="Enter Your Email" />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter Your Password"
+          />
+        </div>
+        <div>
+          <label for="number">Number:</label>
+          <input
+            id="number"
+            type="number"
+            placeholder="Enter Your Phone Number"
+          />
+        </div>
+        <div>
+          <label>Gender:</label>
+          <input type="radio" name="Gender" />
+          <label class="radio">Male</label>
+          <input type="radio" name="Gender" />
+          <label class="radio">Female</label>
+          <input type="radio" name="Gender" />
+          <label class="radio">Others</label>
+        </div>
+        <div>
+          <label>CheckBox:</label>
+          <input type="checkbox" name="checkbox" />
+          <label class="radio">Option1</label>
+          <input type="checkbox" name="checkbox" />
+          <label class="radio">Option2</label>
+          <input type="checkbox" name="checkbox" />
+          <label class="radio">Option3</label>
+        </div>
+        <div>
+          <label for="files">Files:</label>
+          <input id="files" type="file" multiple accept="image/*" />
+        </div>
+        <div>
+          <label for="search">Search:</label>
+          <input id="search" type="search" />
+        </div>
+        <div>
+          <label for="url">URL:</label>
+          <input id="url" type="url" />
+        </div>
+        <div>
+          <label for="telephone">Telephone:</label>
+          <input id="telephone" type="tel" />
+        </div>
+        <div>
+          <label for="color">Color:</label>
+          <input id="color" type="color" />
+        </div>
+        <div>
+          <label for="range">Range:</label>
+          <input id="range" type="range" />
+        </div>
+        <div>
+          <label for="hidden">Hidden:</label>
+          <input id="hidden" type="hidden" />
+        </div>
+        <div>
+          <label for="button1">Button1:</label>
+          <input id="button1" type="submit" value="Click Here" />
+        </div>
+        <div>
+          <label for="button"></label>
+          <input
+            id="button"
+            type="image"
+            src="./images/button.png"
+            style="width: 200px"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

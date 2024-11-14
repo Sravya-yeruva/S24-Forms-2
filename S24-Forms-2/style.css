@@ -1,0 +1,33 @@
+.headingH{
+    font-size:1.4rem;
+    font-family:monospace;
+    background-color:lightgreen;
+    border-radius:10px;
+    border:3px solid blue;
+    text-align:center;
+    padding:5px;
+}
+.mainD{
+    border:5px solid black;
+    width:600px;
+    height:1300px;
+    background-color: lightpink;
+}
+form div{
+    padding:10px;
+    margin:10px;
+    font-size:1.4rem;
+}
+form label{
+    display:inline-block;
+    width:180px;
+}
+.radio{
+    width:80px;
+}
+#button1{
+    background-color:lightgreen;
+    font-size:1rem;
+    padding:10px;
+    border-radius:15px;
+}
